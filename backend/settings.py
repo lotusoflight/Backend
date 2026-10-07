@@ -28,7 +28,7 @@ DEBUG = True
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = os.environ.get(
  "DJANGO_ALLOWED_HOSTS",
- "localhost,127.0.0.1"
+ "backend-y2il.onrender.com,localhost,127.0.0.1"
 ).split(",")
 
 # Application definition
